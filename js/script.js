@@ -22,6 +22,8 @@ for (var i = 0; i < 10; i++) {
 	
 };*/
 
+/*task4*/
+
 var i=0;
 while (i<10) {
 	i++
@@ -31,6 +33,8 @@ while (i<10) {
 
 
 };
+
+/*task 5*/
 
 var y = Number(Math.random()*100);
 var number = y-(y%1);
