@@ -22,7 +22,7 @@ for (var i = 0; i < 10; i++) {
 	
 };*/
 
-/*var i=0;
+var i=0;
 while (i<10) {
 	i++
 	if (i%2==0){
@@ -30,11 +30,10 @@ while (i<10) {
 	} else {console.log("# # # # ")};
 
 
-};*/
+};
 
 var y = Number(Math.random()*100);
 var number = y-(y%1);
-console.log(number);
 do {var x = prompt ('please try to guess number from 1 to 100', '0');
 if (x>number){
 		alert("sorry our number is lower, try again");
