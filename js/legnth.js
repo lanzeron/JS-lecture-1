@@ -1,4 +1,4 @@
-"use striet";
+"use strict";
 (function() {
     var x2 = prompt("please enter coordinate X", "0");
     var y2 = prompt("please enter coordinate Y", "0");

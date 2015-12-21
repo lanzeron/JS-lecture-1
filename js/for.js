@@ -1,8 +1,8 @@
-"use striet";
+"use strict";
 (function() {
-    var output = '';
+    var output = " ";
     for (var i = 0; i < 10; i++) {
-        output = output + '#';
-        console.log(output)
-    };
+        output = output + "#";
+        console.log(output);
+    }
 })();
