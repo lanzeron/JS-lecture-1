@@ -1,16 +1,14 @@
 "use strict";
 (function() {
-    var y = Number(Math.random() * 100);
-    var number = y - (y % 1);
+    var y = Math.round(Math.random() * 100);
     do {
         var x = prompt("please try to guess number from 1 to 100", "0");
-        if (x > number) {
+        if (x > y) {
             alert("sorry our number is lower, try again");
-        } else if (x < number) {
+        } else if (x < y) {
             alert("sorry our number is higher, try again");
         }
     }
-    while (x != number);
-    alert("You are win!!!");
-    console.log(number);
+    while (x != y);
+    alert("You are win!!");
 })();
